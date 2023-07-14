@@ -455,7 +455,7 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 
 /* 超小屏幕（手机，小于 768px） */
 @media (max-width: 767px) {
-	.content-box{width: 96%;margin: 2rem auto 0 auto;}
+	.content-box{width: 92%;margin: 2rem auto 0 auto;}
 	.content-top-box li{width: 100%;}
 	.content-top-left-banner{height: auto;}
 	.content-top-right-box{padding: 0;background-color: transparent;}
