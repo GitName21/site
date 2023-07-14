@@ -826,8 +826,8 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 		padding: 15px;
 		padding-bottom: 10px;
 		transition: opacity .4s ease-in-out;
-	  display: inline-block;
-	  column-break-inside: avoid;
+		display: inline-block;
+		column-break-inside: avoid;
 	}
 
 	div#columns figure img {
@@ -854,14 +854,14 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 	div#columns small a { 
 	  color: #666; 
 	  text-decoration: none; 
-	  transition: .4s color;
+	  transition: .3s color;
 	}
 
 	div#columns:hover figure:not(:hover) {
 		opacity: 0.5;
 	}
 
-	@media screen and (max-width: 750px) { 
+	@media screen and (max-width: 767px) { 
 	  #columns { column-gap: 0px; }
-	  #columns figure { width: auto; }
+	  #columns figure { width: auto;}
 	}
