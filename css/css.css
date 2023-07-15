@@ -139,16 +139,19 @@ body{background: var(--bg-color);transition: var(--transitionTime05) ease-in;}
 .news-note-left div{display: flex;justify-content: center;flex-wrap: wrap;}
 .news-note-left p{text-align: center;color: var(--colorfff);margin: 0;padding: 0.5rem 0;width: auto;width: 100%;}
 .news-note-left p:first-child{font-size: 2rem;}
-.news-note-left p:last-child{border: 1px solid #fff;width: 8rem;margin: 1rem 0 0 0;}
+.news-note-left p:last-child{border: 1px solid #fff;width: 7rem;margin: 1rem 0 0 0;border-radius: 0.2rem;padding: 0;transition: all .3s ease}
+.news-note-left p:last-child a{width: 100%;height: 100%;display: block;padding: 0.5rem 0;}
+.news-note-left p:last-child:hover{background-color: #fff;color: #000;}
 .news-note-left::before{position: absolute;bottom: 0;left: 0;content: '置顶';width: 5rem;height: 1.8rem;color: #fff;text-align: center;line-height: 1.8rem;background-color: #e62129;}
 /* 列表 */
 .news-note-list{width: 100%;height: auto;display: flex;flex-wrap: nowrap;justify-content: space-between;background-color: var(--bg-fff);padding: 0.5rem;width: auto;}
+.news-note-list a{display: flex;flex-wrap: nowrap;justify-content: space-between;}
 .news-note-list li:first-child{width:22%;height: auto;}
 .news-note-list li:last-child{padding: 0 0 0 0.5rem;align-content: space-between;display: flex;flex-wrap: wrap;width: 78%;}
 .news-note-list li:first-child img{width:100%;height: auto;}
-.news-note-list li:last-child p:first-child{font-size: 1.2rem;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:1;}
-.news-note-list li:last-child p:nth-child(2){font-size: 0.875rem;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2;color: var(--dark-gray);}
-.news-note-list li:last-child p:last-child{font-size: 0.875rem;}
+.news-note-list li:last-child p:first-child{font-size: 1.2rem;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:1;color: var(--color000);}
+.news-note-list li:last-child p:nth-child(2){font-size: 0.75rem;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2;color: var(--light-grey);}
+.news-note-list li:last-child p:last-child{font-size: 0.75rem;color: var(--light-grey);}
 
 /* 平面作品 */
 .plane-box{
