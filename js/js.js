@@ -11,10 +11,10 @@ $(document).ready(function(){
 			$('.navbar-more div').show(200);
 			
 			$('.global-Mask').fadeOut(300)
-			$('.navbar-mobile').fadeOut(0)
-			$('.navbar-mobile').css({'transform':'translateX(100%)'})
-			$('.content-box').css({'transform':'translateX(0)','transition':'all 0.3s ease'})
-			$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.3s ease'})
+			$('.navbar-mobile').fadeOut(600)
+			$('.navbar-mobile').css({'transform':'translateX(100%)','transition':'all 0.6s ease'})
+			$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+			$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 
 			$(document).unbind("scroll.unable"); 
 		}else{
@@ -26,9 +26,9 @@ $(document).ready(function(){
 			$('.global-Mask').fadeIn(300)
 			$('.navbar-mobile').fadeIn(0)
 			$('.mask').css({'display':'flex'})
-			$('.navbar-mobile').css({'transform':'translateX(0)'})
-			$('.content-box').css({'transform':'translateX(-85%)','transition':'all 0.3s ease'})
-			$('.navbar-left').css({'transform':'translateX(-150%)','transition':'all 0.3s ease'})
+			$('.navbar-mobile').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+			$('.content-box').css({'transform':'translateX(-85%)','transition':'all 0.6s ease'})
+			$('.navbar-left').css({'transform':'translateX(-150%)','transition':'all 0.6s ease'})
 			
 			var top = $(document).scrollTop();
 			// 禁止窗口滚动
@@ -338,6 +338,18 @@ $(document).ready(function(){
 	$('.global-Mask').click(function(){
 		closeShare();
 		$('.alert-box').fadeOut(500);
+		
+		
+		$(".navbar-more").addClass("navbar-close");
+		$(".navbar-more").removeClass("navbar-open");
+		$('.navbar-more div').show(200);
+		$('.navbar-mobile').fadeOut(600)
+		$('.navbar-mobile').css({'transform':'translateX(100%)','transition':'all 0.6s ease'})
+		$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+		$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+		
+		$(document).unbind("scroll.unable"); 
+		
 	})
 	
 	
