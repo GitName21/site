@@ -16,6 +16,7 @@ $(document).ready(function(){
 			$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 			$('.details-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 			$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+			$('.footer-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 
 			$(document).unbind("scroll.unable"); 
 		}else{
@@ -31,6 +32,7 @@ $(document).ready(function(){
 			$('.content-box').css({'transform':'translateX(-85%)','transition':'all 0.6s ease'})
 			$('.details-box').css({'transform':'translateX(-85%)','transition':'all 0.6s ease'})
 			$('.navbar-left').css({'transform':'translateX(-150%)','transition':'all 0.6s ease'})
+			$('.footer-box').css({'transform':'translateX(-150%)','transition':'all 0.6s ease'})
 			
 			var top = $(document).scrollTop();
 			// 禁止窗口滚动
@@ -350,6 +352,7 @@ $(document).ready(function(){
 		$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 		$('.details-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 		$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+		$('.footer-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 		
 		$(document).unbind("scroll.unable"); 
 		
