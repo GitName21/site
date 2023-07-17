@@ -290,10 +290,10 @@ body{background: var(--bg-color);transition: var(--transitionTime05) ease-in;}
 
 
 /* 平面作品详情展示 */
-.details-box{width: 100%;background-color: #383838;height: auto;padding: 2rem 0 1rem 0;}
+.details-box{width: 100%;background-color: ;height: auto;padding: 2rem 0 1rem 0;}
 .details-main{width: 75rem;margin: 0 auto;}
-.details-main div{margin: 0 auto 1rem 0;}
-.details-main div:not(.details-main-content){color: var(--colorfff);}
+.details-main div{margin: 0 auto 1rem 0;text-align: center;}
+.details-main div:not(.details-main-content){color: var(--color000);}
 .details-main-content{color: var(--medium-grey);font-size: 0.875rem;}
 .details-main img{max-width: 100%;height: auto;}
 .label{padding: 0.2rem 0.2rem;background-color: #4FBA25;border-radius: 0.2rem;margin-left: 0.5rem;color: #ffffff;}
@@ -613,7 +613,7 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 	.recommend-note-ul-list li:last-child{width: 100%;height: auto;}
 	
 	/* 平面作品详情展示 */
-	.details-main{width: 96%}
+	.details-main{width: 92%}
 	.detailsWindow{display: flex;position: absolute;width: 100%;height: 100%;background-color: yellow;color: red;}
 	.details-box{padding-top: 1rem;}
 	

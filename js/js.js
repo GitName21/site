@@ -14,6 +14,7 @@ $(document).ready(function(){
 			$('.navbar-mobile').fadeOut(600)
 			$('.navbar-mobile').css({'transform':'translateX(100%)','transition':'all 0.6s ease'})
 			$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+			$('.details-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 			$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 
 			$(document).unbind("scroll.unable"); 
@@ -28,6 +29,7 @@ $(document).ready(function(){
 			$('.mask').css({'display':'flex'})
 			$('.navbar-mobile').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 			$('.content-box').css({'transform':'translateX(-85%)','transition':'all 0.6s ease'})
+			$('.details-box').css({'transform':'translateX(-85%)','transition':'all 0.6s ease'})
 			$('.navbar-left').css({'transform':'translateX(-150%)','transition':'all 0.6s ease'})
 			
 			var top = $(document).scrollTop();
@@ -346,6 +348,7 @@ $(document).ready(function(){
 		$('.navbar-mobile').fadeOut(600)
 		$('.navbar-mobile').css({'transform':'translateX(100%)','transition':'all 0.6s ease'})
 		$('.content-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
+		$('.details-box').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 		$('.navbar-left').css({'transform':'translateX(0)','transition':'all 0.6s ease'})
 		
 		$(document).unbind("scroll.unable"); 
