@@ -579,6 +579,7 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 	.plane-prompt-bottom{text-align: center;margin-right: 0rem;}
 	.plane-prompt-bottom>a{width: inherit;}
 	.graphic-list-title-describe{font-size: 0.875rem;}
+	.graphic-list-title-moblie{font-size: 0.875rem;}
 	
 	/* 三维作品 */
 	/* 三维列表 */
