@@ -539,8 +539,8 @@ input[name="message-reset"],input[name="message-submit"]{width: 49%;height: 2.81
 	.count-ul li p:last-child{font-size: 0.875rem;}
 	/* 搜索按钮 */
 	.navbar-mobile-ul form{width: 100%;}
-	.navbar-mobile-ul input[name="search-mobile"]{width: 81%;height: 2rem;padding: 0 3% 0 0.5rem;border: 0;outline: none;}
-	.navbar-mobile-ul input[name="submit-mobile"]{width: ;height: 2rem;border: 0;outline: none;position: absolute;top: 0;right: 0;padding: 0 3%;background-color: #e7e7e7;}
+	.navbar-mobile-ul input[name="search-mobile"]{width: 81%;height: 1.9rem;padding: 0 3% 0 0.5rem;outline: none;border: 1px solid #ececec;background-color: var(--bg-fff);}
+	.navbar-mobile-ul input[name="submit-mobile"]{width: ;height: 2rem;border: 0;outline: none;position: absolute;top: 0;right: 0;padding: 0 3%;background-color: #ececec;}
 	/* 二级设置菜单 */
 	.navbar-mobile-set{width: 90%;display: none;}
 	.navbar-mobile-set li{width: 100%;margin: 1rem 0 0 1.5rem;height: auto;display: flex;align-items: center;}
